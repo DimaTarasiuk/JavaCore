@@ -3,10 +3,10 @@ package main.com.dtarasiuk.javacore.chapter03;
 public class TwoDAgain {
     public static void main(String args[]) {
         int twoD[][] = new int[4][];
-        twoD[0] = new int[10];
-        twoD[1] = new int[20];
-        twoD[2] = new int[30];
-        twoD[3] = new int[40];
+        twoD[0] = new int[1];
+        twoD[1] = new int[2];
+        twoD[2] = new int[3];
+        twoD[3] = new int[4];
 
         int i, j, k = 0;
 
@@ -20,8 +20,8 @@ public class TwoDAgain {
         for (i = 0; i < 4; i++) {
             for (j = 0; j < i + 1; j++) {
                 System.out.print(twoD[i][j] + " ");
-                System.out.println();
             }
+            System.out.println();
         }
-    }//TODO
+    }
 }
