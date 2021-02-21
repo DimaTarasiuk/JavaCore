@@ -6,5 +6,7 @@ public class BreackLoop {
             if(i==10) break;
         }
         System.out.println("cycle is ended");
+        System.out.println("cycle is ended");
+
     }
 }
